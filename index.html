@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Islem Kammoun’s portfolio in network engineering, systems monitoring, and cybersecurity.">
+<title>Islem Kammoun | Network Engineering &amp; Cybersecurity</title>
+<style>
+:root{color-scheme:dark;--bg:#101719;--panel:#172225;--text:#f0f5f2;--muted:#b7c8c3;--accent:#9de7c0;--line:#334744}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.65 "Instrument Sans",system-ui,sans-serif}a{color:var(--accent);text-underline-offset:.24em}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.wrap{width:min(1100px,calc(100% - 2.5rem));margin-inline:auto}
+header,footer{border-block-end:1px solid var(--line)}nav,.footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;padding-block:1.25rem}.brand{font-weight:800;color:var(--text);text-decoration:none}.links,.actions{display:flex;flex-wrap:wrap;gap:.8rem 1.3rem}.links a{color:var(--muted)}.skip{position:absolute;left:1rem;top:-5rem}.skip:focus{top:1rem;background:var(--bg);padding:.5rem}
+.hero{padding:clamp(3rem,9vw,7rem) 0 4rem;border-bottom:1px solid var(--line)}.eyebrow,.meta{color:var(--accent);font: .82rem/1.5 "IBM Plex Mono",monospace;letter-spacing:.09em;text-transform:uppercase}h1,h2,h3,p{margin:0}h1{font-size:clamp(3.5rem,10vw,7.5rem);line-height:1;letter-spacing:-.08em;margin:.7rem 0 1.25rem}h2{font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;letter-spacing:-.045em;margin-bottom:1.5rem}h3{font-size:1.25rem;line-height:1.3;margin-bottom:.5rem}.intro{color:var(--muted);max-width:63ch;font-size:1.18rem}.actions{margin-top:1.6rem}.button{display:inline-block;border:1px solid var(--line);border-radius:.4rem;padding:.65rem 1rem;font-weight:700;text-decoration:none}.primary{background:var(--accent);color:var(--bg);border-color:var(--accent)}section:not(.hero){padding-block:3.5rem;border-bottom:1px solid var(--line)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem}.card{padding:1.35rem;background:var(--panel);border:1px solid var(--line);border-radius:.65rem}.card .meta{display:block;margin-bottom:.65rem}.card p,.role p,.education p,.footer{color:var(--muted)}.role{display:grid;grid-template-columns:minmax(10rem,1fr) 2.4fr;gap:1rem;padding:1.4rem 0;border-top:1px solid var(--line)}.role h3{margin-top:.2rem}.education{display:grid;gap:1rem}.education strong{display:block}footer{border:0}@media(max-width:600px){.role{grid-template-columns:1fr;gap:.4rem}nav{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header><nav class="wrap" aria-label="Main navigation">
+<a class="brand" href="#main">Islem Kammoun</a>
+<div class="links"><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a></div>
+</nav></header>
+<main id="main" class="wrap">
+<section class="hero" aria-labelledby="name">
+<p class="eyebrow">Network engineering · Systems administration · Cybersecurity</p>
+<h1 id="name">Islem Kammoun</h1>
+<p class="intro">I configure and troubleshoot networks, build security monitoring workflows, and document how systems behave. My hands-on work includes VLAN and routing labs, firewall and VPN configuration, and a Wazuh-based lab SOC.</p>
+<div class="actions"><a class="button primary" href="#skills">View technical skills</a><a class="button" href="mailto:kammouni@mail.gvsu.edu">Email me</a><a class="button" href="https://www.linkedin.com/in/islem-kammoun-a3a6b9245/">LinkedIn</a></div>
+</section>
+<section id="skills">
+<h2>Technical skills</h2>
+<div class="grid">
+<div class="card"><h3>Networking &amp; access</h3><p>TCP/IP, subnetting, VLANs, routing, switching, DNS, DHCP, NAT, Wireshark, Packet Tracer, firewalls, IPsec, SSL VPN</p></div>
+<div class="card"><h3>Systems &amp; automation</h3><p>Windows Server, Active Directory, Linux, VMware, Proxmox, Docker, Python, Bash, GitLab CI</p></div>
+<div class="card"><h3>Monitoring &amp; cloud security</h3><p>Wazuh, Suricata, Splunk, TheHive, Prometheus, Grafana, OpenVAS, Netskope CASB/DLP, Okta SAML SSO</p></div>
+</div>
+</section>
+<section id="experience">
+<h2>Experience</h2>
+<article class="role"><p class="meta">Aug 2025 – Sep 2026</p><div><h3>Graduate Assistant · Grand Valley State University</h3><p>Designed and delivered networking labs for 20 students using Packet Tracer and Wireshark. Troubleshot lab connectivity and workstation issues and hosted a cybersecurity competition platform on Proxmox.</p></div></article>
+<article class="role"><p class="meta">Feb – Jun 2025</p><div><h3>Cybersecurity Intern · SFM Technologies</h3><p>Built a VMware-based SOC lab and tested detection of simulated Active Directory attacks. Added security event triage and server performance monitoring.</p></div></article>
+<article class="role"><p class="meta">Sep 2024 – Jan 2025</p><div><h3>Cloud Security Intern · 6NLG</h3><p>Deployed a Netskope reverse proxy with Okta SAML SSO for a Salesforce test application. Configured 10 DLP rules and CASB API policies for Microsoft cloud data.</p></div></article>
+<article class="role"><p class="meta">Jul – Aug 2024</p><div><h3>Cybersecurity Intern · Sofrecom</h3><p>Built repeatable compliance and vulnerability reporting with CIS Benchmarks, OpenVAS, Docker, and GitLab CI.</p></div></article>
+</section>
+<section id="projects">
+<h2>Selected projects</h2>
+<div class="grid">
+<article class="card"><span class="meta">Huawei USG6000 · 2024</span><h3>Firewall, routing &amp; VPN lab</h3><p>Configured trust, untrust, and DMZ zones, static routes, source NAT, and stateful policies. Verified permitted and blocked ICMP, DNS, and web traffic, then tested site-to-site IPsec/IKE and remote-access SSL VPNs.</p></article>
+<article class="card"><span class="meta">EC-Council CCSE coursework</span><h3>Cloud security labs</h3><p>Completed hands-on labs with AWS Security Hub, Azure Security Center, and Google Cloud Security Command Center to review cloud security findings and assess security posture across providers.</p></article>
+<article class="card"><span class="meta">Suricata · Splunk</span><h3>Intrusion prevention and alert analysis</h3><p>Practiced network intrusion prevention with Suricata and used Splunk to search and analyze security alerts from lab traffic.</p></article>
+</div>
+</section>
+<section id="education">
+<h2>Education</h2>
+<div class="education">
+<div><strong>M.S. in Cybersecurity · Grand Valley State University</strong><p>May 2026 · GPA 3.75/4.00</p></div>
+<div><strong>B.Eng. in Networks and Telecommunications · SUP’COM</strong><p>July 2025</p></div>
+<div><strong>Cisco Networking Academy</strong><p>CCNA 1 &amp; 2 coursework · 2024</p></div>
+</div>
+</section>
+</main>
+<footer class="wrap footer"><span>Islem Kammoun</span><div class="links"><a href="mailto:kammouni@mail.gvsu.edu">Email</a><a href="https://www.linkedin.com/in/islem-kammoun-a3a6b9245/">LinkedIn</a></div></footer>
+</body>
+</html>
